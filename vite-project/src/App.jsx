@@ -24,7 +24,7 @@ const App = () => {
      
       <div className="card-container">
       
-        {cardData.map((card, index) => (
+        {cardData.map((car, index) => (
           <Card key={index} name={card.name} photo={card.photo} handleClick={handleClick} />
         ))}
       </div>
